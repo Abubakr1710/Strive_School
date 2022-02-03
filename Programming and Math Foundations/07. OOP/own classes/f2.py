@@ -7,7 +7,3 @@ class Student(Person):
     def printname(self):
         print(self.firstname, self.lastname, self.id)
         
-
-x = Student("Sam","John",5656)
-x.printname()
-      
